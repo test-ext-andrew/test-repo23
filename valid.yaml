@@ -1,4 +1,4 @@
-name: GitHub linked workflow test
+name: GitHub linked workflow test234
 steps:
   - name: trigger
     type: TRIGGER
