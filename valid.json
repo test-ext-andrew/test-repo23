@@ -9,6 +9,17 @@
     {
       "name": "parse",
       "type": "PARSE",
+      "next": [{ "step": "extract" }]
+    },
+    {
+      "name": "extract",
+      "type": "EXTRACT",
+      "config": {
+        "extractor": {
+          "id": "ex_lTPabqiQmDXXFQFPgFpcZ",
+          "version": "latest"
+        }
+      },
       "next": [{ "step": "response" }]
     },
     {
