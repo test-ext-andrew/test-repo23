@@ -20,6 +20,7 @@ jobs:
 
     env:
       EXTEND_API_KEY: ${{ secrets.EXTEND_API_KEY }}
+      EXTEND_BASE_URL: ${{ vars.EXTEND_BASE_URL }}
       EXTEND_WORKSPACE_ID: ${{ secrets.EXTEND_WORKSPACE_ID }}
       EXTEND_REGION: ${{ vars.EXTEND_REGION || 'us' }}
       EXTEND_WORKFLOW_ID: ${{ secrets.EXTEND_VALID_JSON_WORKFLOW_ID }}
