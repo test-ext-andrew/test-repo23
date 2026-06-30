@@ -9,11 +9,6 @@
     {
       "name": "parse",
       "type": "PARSE",
-      "next": [{ "step": "review" }]
-    },
-    {
-      "name": "review",
-      "type": "HUMAN_REVIEW",
       "next": [{ "step": "response" }]
     },
     {
